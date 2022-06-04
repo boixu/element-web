@@ -1,8 +1,8 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://matrix-client.matrix.org",
-            "server_name": "matrix.org"
+            "base_url": "https://matrix.home31.pw",
+            "server_name": "home31.pw"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
@@ -12,7 +12,7 @@
     "disable_guests": false,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
-    "brand": "Element",
+    "brand": "Home31",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [
@@ -23,32 +23,33 @@
         "https://scalar-staging.riot.im/scalar/api"
     ],
     "bug_report_endpoint_url": "https://element.io/bugreports/submit",
-    "uisi_autorageshake_app": "element-auto-uisi",
-    "default_country_code": "GB",
-    "show_labs_settings": false,
-    "features": { },
+    "defaultCountryCode": "GB",
+    "showLabsSettings": false,
+    "features": {
+        "feature_new_spinner": false
+    },
     "default_federate": true,
-    "default_theme": "light",
-    "room_directory": {
+    "default_theme": "dark",
+    "roomDirectory": {
         "servers": [
             "matrix.org"
         ]
     },
+    "welcomeUserId": "@riot-bot:matrix.org",
     "piwik": {
         "url": "https://piwik.riot.im/",
-        "whitelisted_hs_urls": ["https://matrix.org"],
-        "whitelisted_is_urls": ["https://vector.im", "https://matrix.org"],
+        "whitelistedHSUrls": ["https://matrix.org"],
+        "whitelistedISUrls": ["https://vector.im", "https://matrix.org"],
         "siteId": 1
     },
     "enable_presence_by_hs_url": {
         "https://matrix.org": false,
         "https://matrix-client.matrix.org": false
     },
-    "setting_defaults": {
+    "settingDefaults": {
         "breadcrumbs": true
     },
     "jitsi": {
-        "preferred_domain": "meet.element.io"
-    },
-    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
+        "preferredDomain": "jitsi.riot.im"
+    }
 }
