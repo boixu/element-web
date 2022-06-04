@@ -23,7 +23,7 @@
     "bug_report_endpoint_url": "https://element.io/bugreports/submit",
     "defaultCountryCode": "GB",
     "showLabsSettings": false,
-    "default_federate": true,
+    "default_federate": false,
     "default_theme": "dark",
     "roomDirectory": {
         "servers": [
